@@ -90,8 +90,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("UPDATES", callback_data = "https://t.me/mx_hud"),
-                    InlineKeyboardButton("GROUP", url = f"https://t.me/movie_x_zone")
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url = f"https://t.me/mx_hud"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘ", url = f"https://t.me/movie_x_zone")
                 ]
             ]
         )
@@ -122,7 +122,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = '🔁 REFRESH 🔁',
+                    text = '🔁 ʀᴇғʀᴇsʜ 🔁',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
