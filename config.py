@@ -26,7 +26,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>നിങ്ങൾ ആവിശ്യപ്പെട്ട സിനിമ ലഭിക്കുന്നതായി, നിങ്ങൾ ഞങ്ങളുടെ @MX_HUD ചാനലിൽ ജോയിൻ ചെയ്യണം.</b>"")
+START_MSG = os.environ.get("START_MESSAGE", "<b>നിങ്ങൾ ആവിശ്യപ്പെട്ട സിനിമ ലഭിക്കുന്നതായി, നിങ്ങൾ ഞങ്ങളുടെ @MX_HUD ചാനലിൽ ജോയിൻ ചെയ്യണം.</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
